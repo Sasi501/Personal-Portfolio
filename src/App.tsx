@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import CustomCursor from './components/Layout/CustomCursor';
 import Navbar from './components/Layout/Navbar';
 import Hero from './components/Hero/Hero';
@@ -20,6 +21,7 @@ function App() {
         <Experience />
         <Contact />
       </main>
+      <Analytics />
     </div>
   );
 }
