@@ -16,6 +16,8 @@ export default function Navbar() {
         <a href="#skills" className="text-gray-300 hover:text-white transition-colors">Skills</a>
         <a href="#projects" className="text-gray-300 hover:text-white transition-colors">Projects</a>
         <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
+        <a href="https://calendly.com/developersasi" target="_blank" rel="noreferrer" className="text-gray-300 hover:text-white transition-colors">Schedule</a>
+        <a href="/Sasidharan_Resume.pdf" className="text-gray-300 hover:text-white transition-colors" download>Resume</a>
       </div>
       <a 
         href="#contact" 

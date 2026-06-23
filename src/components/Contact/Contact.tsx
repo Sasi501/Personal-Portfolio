@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiMail, FiSend } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiSend, FiFileText, FiCalendar } from 'react-icons/fi';
 
 export default function Contact() {
   return (
@@ -42,23 +42,43 @@ export default function Contact() {
           </div>
           
           <div className="space-y-4">
-            <a href="mailto:sasidharan@example.com" className="flex items-center gap-4 p-4 rounded-2xl glass-panel group hover:bg-white/5 transition-all border-white/5">
+            <a href="mailto:csasi1928@gmail.com" className="flex items-center gap-4 p-4 rounded-2xl glass-panel group hover:bg-white/5 transition-all border-white/5">
               <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:scale-110 group-hover:bg-blue-500 group-hover:text-white transition-all">
                 <FiMail size={20} />
               </div>
               <div>
                 <p className="text-sm font-medium text-white">Email</p>
-                <p className="text-sm text-gray-400">sasidharan@example.com</p>
+                <p className="text-sm text-gray-400">csasi1928@gmail.com</p>
               </div>
             </a>
-            
-            <a href="https://linkedin.com/in/sasidharan" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-2xl glass-panel group hover:bg-white/5 transition-all border-white/5">
+
+            <a href="/Sasidharan_Resume.pdf" download className="flex items-center gap-4 p-4 rounded-2xl glass-panel group hover:bg-white/5 transition-all border-white/5">
+              <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:scale-110 group-hover:bg-white group-hover:text-black transition-all">
+                <FiFileText size={20} />
+              </div>
+              <div>
+                <p className="text-sm font-medium text-white">Resume</p>
+                <p className="text-sm text-gray-400">Download PDF</p>
+              </div>
+            </a>
+
+            <a href="https://calendly.com/developersasi" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-2xl glass-panel group hover:bg-white/5 transition-all border-white/5">
+              <div className="w-12 h-12 rounded-full bg-green-500/10 flex items-center justify-center text-green-400 group-hover:scale-110 group-hover:bg-green-500 group-hover:text-white transition-all">
+                <FiCalendar size={20} />
+              </div>
+              <div>
+                <p className="text-sm font-medium text-white">Schedule Interview</p>
+                <p className="text-sm text-gray-400">Book a 15-min chat via Calendly</p>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sasi-dharan-18638024a" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-2xl glass-panel group hover:bg-white/5 transition-all border-white/5">
               <div className="w-12 h-12 rounded-full bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:scale-110 group-hover:bg-[#0A66C2] group-hover:text-white transition-all">
                 <FiLinkedin size={20} />
               </div>
               <div>
                 <p className="text-sm font-medium text-white">LinkedIn</p>
-                <p className="text-sm text-gray-400">Connect with me</p>
+                <p className="text-sm text-gray-400">Sasi Dharan</p>
               </div>
             </a>
 

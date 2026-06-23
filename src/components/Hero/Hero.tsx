@@ -3,9 +3,9 @@ import { FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { useEffect, useState } from 'react';
 
 const codeSnippet = `const developer = {
-  name: "Sasidharan Chandran",
+  name: "SASIDHARAN C",
   role: "Full Stack Developer",
-  focus: ["AI/ML", "Web Apps"],
+  focus: ["Software Engineer", "Full Stack Web Apps", "Data Analytics"],
   status: "Available",
   
   solveProblem: (problem) => {
@@ -54,17 +54,26 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-400 max-w-lg font-light leading-relaxed">
-            CSE Student & Full Stack Developer. I build highly interactive web applications and scalable solutions. Let's create something cool together.
+            CSE student and Full Stack Developer specialized in building high-performance web apps and AI prototypes. Experienced with React, Node.js, Python, OpenCV, and embedded systems. Open to internships and early-career roles; I focus on clean code, fast delivery, and measurable impact.
           </p>
           
           <div className="flex flex-wrap items-center gap-4 mt-4">
             <a href="#contact" className="px-8 py-4 rounded-full bg-white text-black font-semibold flex items-center gap-2 hover:scale-105 transition-transform">
               Let's Connect <FiArrowRight />
             </a>
+
+            <a href="/Sasidharan_Resume.pdf" download className="px-6 py-3 rounded-full bg-transparent border border-white/10 text-sm font-medium hover:bg-white/5 transition-colors">
+              Download Resume
+            </a>
+
+            <a href="https://calendly.com/developersasi" target="_blank" rel="noreferrer" className="px-6 py-3 rounded-full bg-green-600 text-white font-medium hover:bg-green-500 transition-colors">
+              Schedule Interview
+            </a>
+
             <div className="flex items-center gap-4 px-6 h-14 rounded-full glass-panel">
               <a href="https://github.com/sasidharan" target="_blank" className="text-gray-300 hover:text-white transition-colors"><FiGithub size={20} /></a>
-              <a href="https://linkedin.com/in/sasidharan" target="_blank" className="text-gray-300 hover:text-white transition-colors"><FiLinkedin size={20} /></a>
-              <a href="#contact" className="text-gray-300 hover:text-white transition-colors"><FiMail size={20} /></a>
+              <a href="https://www.linkedin.com/in/sasi-dharan-18638024a" target="_blank" className="text-gray-300 hover:text-white transition-colors"><FiLinkedin size={20} /></a>
+              <a href="mailto:csasi1928@gmail.com" className="text-gray-300 hover:text-white transition-colors"><FiMail size={20} /></a>
             </div>
           </div>
         </motion.div>

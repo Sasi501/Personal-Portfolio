@@ -6,31 +6,36 @@ const projects = [
     title: "AI-Based Crowd Management",
     description: "Intelligent system for real-time crowd density estimation. I built the complete backend architecture and integrated computer vision pipelines to analyze live feeds accurately.",
     tags: ["Python", "OpenCV", "TensorFlow", "React", "Node.js"],
-    github: "https://github.com/sasidharan",
-    demo: "#",
+    github: "https://github.com/backup2025nov-maker/Crowd-Management",
+    demo: "https://github.com/backup2025nov-maker/Crowd-Management",
     highlight: true,
   },
+
+
+
   {
     title: "Community Event Platform",
     description: "A centralized platform for organizing and discovering local tech events. I developed the scalable REST APIs and the interactive frontend dashboard.",
     tags: ["MongoDB", "Express", "React"],
-    github: "https://github.com/sasidharan",
+    github: "https://github.com/Sasi501/expert-booking-system",
     demo: "#",
     highlight: false,
   },
+
   {
-    title: "IR-Based Traffic Density Detection",
-    description: "Hardware-software integrated system capturing IR sensor arrays to optimize traffic light timing. Showcases my embedded systems knowledge paired with data layer APIs.",
-    tags: ["Embedded C++", "IoT", "Python"],
-    github: "https://github.com/sasidharan",
+    title: "IR-Based Traffic Density Detection (Final Year Diploma Project)",
+    description: "Hardware-software integrated system capturing IR sensor arrays to optimize traffic light timing. Showcases embedded systems knowledge paired with data layer APIs.",
+    tags: ["Embedded C++", "IoT", "Python", "AI Basics"],
+    github: "https://github.com/Sasi501/-Developer-Productivity-MVP",
     demo: "#",
-    highlight: false,
+    highlight: true,
   },
+
   {
     title: "Online Grocery App",
     description: "Feature-rich e-commerce platform for grocery delivery with real-time inventory tracking, built to handle concurrent orders smoothly.",
     tags: ["React Native", "Firebase", "Node.js"],
-    github: "https://github.com/sasidharan",
+    github: "https://github.com/Sasi501/-Developer-Productivity-MVP",
     demo: "#",
     highlight: false,
   }
@@ -79,14 +84,17 @@ function InteractiveCard({ project }: { project: any }) {
       </div>
       
       <div className="flex items-center gap-4 relative z-10">
-        <a href={project.github} className="flex items-center gap-2 text-sm font-semibold hover:text-white text-gray-400 transition-colors">
+        <a href={project.github || 'https://github.com/sasidharan'} className="flex items-center gap-2 text-sm font-semibold hover:text-white text-gray-400 transition-colors">
           <FiGithub /> Source
         </a>
-        {project.demo !== "#" && (
-          <a href={project.demo} className="flex items-center gap-2 text-sm font-semibold hover:text-blue-400 text-gray-400 transition-colors ml-auto">
+        {project.demo !== "#" && project.demo && (
+          <a href={project.demo} className="flex items-center gap-2 text-sm font-semibold hover:text-blue-400 text-gray-400 transition-colors">
              Demo <FiExternalLink />
           </a>
         )}
+        <a href="https://calendly.com/developersasi" target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-2 px-3 py-2 rounded-md bg-blue-600/10 text-sm font-medium text-blue-300 hover:bg-blue-600/20 transition-colors">
+          Schedule Demo
+        </a>
       </div>
     </div>
   );
