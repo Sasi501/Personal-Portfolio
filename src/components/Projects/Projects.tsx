@@ -11,12 +11,19 @@ const projects = [
     highlight: true,
   },
 
-
-
   {
     title: "Community Event Platform",
     description: "A centralized platform for organizing and discovering local tech events. I developed the scalable REST APIs and the interactive frontend dashboard.",
     tags: ["MongoDB", "Express", "React"],
+    github: "https://github.com/Sasi501/expert-booking-system",
+    demo: "#",
+    highlight: false,
+  },
+
+  {
+    title: "Expert Session Booking System",
+    description: "Developed a full-stack platform for booking expert sessions with user authentication, appointment scheduling, and session management. Implemented MongoDB-backed REST APIs for secure user management, booking operations, and real-time appointment tracking.",
+    tags: ["React", "Node.js", "MongoDB", "JavaScript", "REST APIs"],
     github: "https://github.com/Sasi501/expert-booking-system",
     demo: "#",
     highlight: false,
@@ -86,14 +93,6 @@ function InteractiveCard({ project }: { project: any }) {
       <div className="flex items-center gap-4 relative z-10">
         <a href={project.github || 'https://github.com/sasidharan'} className="flex items-center gap-2 text-sm font-semibold hover:text-white text-gray-400 transition-colors">
           <FiGithub /> Source
-        </a>
-        {project.demo !== "#" && project.demo && (
-          <a href={project.demo} className="flex items-center gap-2 text-sm font-semibold hover:text-blue-400 text-gray-400 transition-colors">
-             Demo <FiExternalLink />
-          </a>
-        )}
-        <a href="https://calendly.com/developersasi" target="_blank" rel="noreferrer" className="ml-auto inline-flex items-center gap-2 px-3 py-2 rounded-md bg-blue-600/10 text-sm font-medium text-blue-300 hover:bg-blue-600/20 transition-colors">
-          Schedule Demo
         </a>
       </div>
     </div>
