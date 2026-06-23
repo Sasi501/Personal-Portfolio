@@ -12,6 +12,15 @@ const projects = [
   },
 
   {
+    title: "IR-Based Traffic Density Detection (Final Year Diploma Project)",
+    description: "Hardware-software integrated system capturing IR sensor arrays to optimize traffic light timing. Showcases embedded systems knowledge paired with data layer APIs.",
+    tags: ["Embedded C++", "IoT", "Python", "AI Basics"],
+    github: "https://github.com/Sasi501/-Developer-Productivity-MVP",
+    demo: "#",
+    highlight: true,
+  },
+
+  {
     title: "Community Event Platform",
     description: "A centralized platform for organizing and discovering local tech events. I developed the scalable REST APIs and the interactive frontend dashboard.",
     tags: ["MongoDB", "Express", "React"],
@@ -27,15 +36,6 @@ const projects = [
     github: "https://github.com/Sasi501/expert-booking-system",
     demo: "#",
     highlight: false,
-  },
-
-  {
-    title: "IR-Based Traffic Density Detection (Final Year Diploma Project)",
-    description: "Hardware-software integrated system capturing IR sensor arrays to optimize traffic light timing. Showcases embedded systems knowledge paired with data layer APIs.",
-    tags: ["Embedded C++", "IoT", "Python", "AI Basics"],
-    github: "https://github.com/Sasi501/-Developer-Productivity-MVP",
-    demo: "#",
-    highlight: true,
   },
 
   {
