@@ -73,7 +73,7 @@ export default function Hero() {
             <div className="flex items-center gap-4 px-6 h-14 rounded-full glass-panel">
               <a href="https://github.com/sasidharan" target="_blank" className="text-gray-300 hover:text-white transition-colors"><FiGithub size={20} /></a>
               <a href="www.linkedin.com/in/sasidharan-chandran-18638024a" target="_blank" className="text-gray-300 hover:text-white transition-colors"><FiLinkedin size={20} /></a>
-              <a href="mailto:csasi1928@gmail.com" className="text-gray-300 hover:text-white transition-colors"><FiMail size={20} /></a>
+              <a href="mailto:sasidharan.works@gmail.com" className="text-gray-300 hover:text-white transition-colors"><FiMail size={20} /></a>
             </div>
           </div>
         </motion.div>
